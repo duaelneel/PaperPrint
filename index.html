@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaperPrint | Premium Printing Solutions</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="preloader">
+        <div class="loader">
+            <svg viewBox="0 0 80 80">
+                <circle id="loader-circle" cx="40" cy="40" r="32"></circle>
+            </svg>
+            <div class="loader-text">PAPERPRINT</div>
+        </div>
+    </div>
+
+    
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <span class="logo-text">Paper<span class="accent">Print</span></span>
+                    </a>
+                </div>
+                
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="services.html" class="nav-link">Services <span class="dropdown-icon">▼</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="services.html#business-printing">Business Printing</a></li>
+                                <li><a href="services.html#custom-merchandise">Custom Merchandise</a></li>
+                                <li><a href="services.html#design-services">Design Services</a></li>
+                                <li><a href="services.html#large-format">Large Format</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-actions">
+                    <a href="contact.html" class="btn btn-outline">Get a Quote</a>
+                    <button class="theme-toggle" aria-label="Toggle dark mode">
+                        <svg class="sun-icon" viewBox="0 0 24 24"><path d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85l1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"/></svg>
+                        <svg class="moon-icon" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
+                    </button>
+                    <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title split-text" data-animation="split-up">Innovative Print 
+     Solutions</h1>
+                    <p class="hero-subtitle" data-animation="fade-up" data-delay="300">Transform your ideas into tangible, high-quality print materials that leave a lasting impression.</p>
+                    <div class="hero-cta" data-animation="fade-up" data-delay="500">
+                        <a href="services.html" class="btn btn-primary">Explore Services</a>
+                        <a href="portfolio.html" class="btn btn-secondary">View Our Work</a>
+                    </div>
+                </div>
+                <div class="hero-media" data-animation="fade-left" data-delay="300">
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600&q=80" alt="Premium printing solutions">
+                    </div>
+                    <div class="hero-shape"></div>
+                </div>
+            </div>
+            <div class="hero-partners">
+                <p class="partners-title">Trusted by leading companies</p>
+                <div class="partners-logos">
+                    <div class="partner-logo">
+                        <svg viewBox="0 0 100 35" fill="currentColor"><path d="M30.2 14.6h-2.9V15c0 .7-.3 1.4-1 1.4s-1-.6-1-1.3c0-.6.2-1 .6-1.3.3-.2.8-.3 1.4-.3h2.9v-1.9c0-1.7-1.2-2.7-3.4-2.7-2.1 0-3.4 1-3.4 2.8v5.7c0 1.7 1.3 2.8 3.4 2.8s3.4-1 3.4-2.8v-2.8zm-8.8-5.4h-2.3v11.2h2.3V9.2zm-6 6.7c0 1-.3 1.7-1.1 1.7-.7 0-1-.6-1-1.7v-6.7h-2.3v7.1c0 1.7 1.2 2.8 3.3 2.8 2.2 0 3.3-1 3.3-2.8V9.2h-2.2v6.7zm-8.8-2.1c0-.6.3-1.1 1-1.1s1 .5 1 1.1v3.7c0 .6-.3 1.1-1 1.1s-1-.5-1-1.1v-3.7zm-2.3 3.5c0 1.8 1.2 2.8 3.3 2.8s3.3-1 3.3-2.8v-3.3c0-1.7-1.2-2.8-3.3-2.8s-3.3 1-3.3 2.8v3.3zm-3.3-8.1h-2.3v11.2h2.3V9.2zM69.2 18.2h3.2v1.3h-5.2v-9h2v7.7zm5.1-4.3c0-.5.3-.9.8-.9s.8.4.8.9v4.3c0 .5-.3.9-.8.9s-.8-.4-.8-.9v-4.3zm-2 4.2c0 1.4 1 2.3 2.8 2.3s2.8-.9 2.8-2.3v-4c0-1.4-1-2.3-2.8-2.3s-2.8.9-2.8 2.3v4zm10.4-4.2c0-.5.3-.9.8-.9s.8.4.8.9v4.3c0 .5-.3.9-.8.9s-.8-.4-.8-.9v-4.3zm-2 4.2c0 1.4 1 2.3 2.8 2.3s2.8-.9 2.8-2.3v-4c0-1.4-1-2.3-2.8-2.3s-2.8.9-2.8 2.3v4zm10.3-4.1h-.7c-.9 0-1.1.3-1.1.9v3.4h-2v-6h2v1.2c.2-.8.7-1.3 1.6-1.3h.3c.1 0 .2 0 .3.1l-.4 1.7zm2.5-.1c0-.5.3-.9.8-.9s.8.4.8.9v4.3c0 .5-.3.9-.8.9s-.8-.4-.8-.9v-4.3zm-2 4.2c0 1.4 1 2.3 2.8 2.3s2.8-.9 2.8-2.3v-4c0-1.4-1-2.3-2.8-2.3s-2.8.9-2.8 2.3v4z"/></svg>
+                    </div>
+                    <div class="partner-logo">
+                        <svg viewBox="0 0 100 35" fill="currentColor"><path d="M42.1 21.4c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5 4.5 2 4.5 4.5-2 4.5-4.5 4.5zm0-7.5c-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3-1.3-3-3-3zm-12.4 7.3h-1.6v-6.1h1.6c2 0 3.3 1.3 3.3 3s-1.3 3.1-3.3 3.1zm.1-7.6h-3.2v9h3.2c2.7 0 4.7-2 4.7-4.5s-2.1-4.5-4.7-4.5zm8.1-.2h1.6v9h-1.6v-9zm23.1 9h-1.6v-6.1h-2.2v-1.5H63v1.5h-2.1v6.1zm-9.7-3.8l-1.5-4.1h-.1l-1.5 4.1h3.1zm-1.1-5.2h2.1l3.4 9h-1.7l-.7-2h-4.1l-.7 2h-1.6l3.3-9zm-20.7 9h-1.6v-9h1.6v9z"/></svg>
+                    </div>
+                    <div class="partner-logo">
+                        <svg viewBox="0 0 100 35" fill="currentColor"><path d="M36.2 10.8c-2.9 0-5.3 2.2-5.3 5.2 0 2.9 2.4 5.2 5.3 5.2s5.3-2.2 5.3-5.2c0-3-2.4-5.2-5.3-5.2zm0 8.3c-1.6 0-2.9-1.3-2.9-3.2 0-1.9 1.3-3.2 2.9-3.2s2.9 1.3 2.9 3.2c0 1.9-1.3 3.2-2.9 3.2zm10.9-8.3c-2.9 0-5.3 2.2-5.3 5.2 0 2.9 2.4 5.2 5.3 5.2s5.3-2.2 5.3-5.2c0-3-2.4-5.2-5.3-5.2zm0 8.3c-1.6 0-2.9-1.3-2.9-3.2 0-1.9 1.3-3.2 2.9-3.2s2.9 1.3 2.9 3.2c0 1.9-1.3 3.2-2.9 3.2zm13-6.7v1.7h4.1c-.1 1-.5 1.7-.9 2.2-.6.6-1.5 1.2-3.1 1.2-2.5 0-4.4-2-4.4-4.4s1.9-4.4 4.4-4.4c1.3 0 2.3.5 3 1.2l1.3-1.3c-1-0.9-2.3-1.6-4.3-1.6-3.4 0-6.3 2.8-6.3 6.2s2.9 6.2 6.3 6.2c1.9 0 3.2-.6 4.3-1.7 1.1-1.1 1.5-2.6 1.5-3.9 0-.4 0-.7-.1-1h-5.8zm11.5 1.7c-2.1 0-3.8 1.6-3.8 3.8 0 2.1 1.7 3.8 3.8 3.8 2.1 0 3.8-1.6 3.8-3.8 0-2.2-1.7-3.8-3.8-3.8zm0 6c-1.1 0-2.1-.9-2.1-2.3 0-1.4 1-2.3 2.1-2.3 1.1 0 2.1.9 2.1 2.3 0 1.4-1 2.3-2.1 2.3zm8.4-5.9h-.1c-.4-.4-1.1-.8-2.1-.8-1.9 0-3.7 1.7-3.7 3.8 0 2.1 1.8 3.8 3.7 3.8 1 0 1.7-.4 2.1-.9h.1v.6c0 1.5-.8 2.3-2.1 2.3-1.1 0-1.7-.8-2-1.4l-1.5.6c.4 1 1.6 2.3 3.5 2.3 2 0 3.7-1.2 3.7-4.1v-7h-1.7v.8zm-2 5.9c-1.1 0-2.1-.9-2.1-2.2 0-1.3 1-2.3 2.1-2.3 1.1 0 2 1 2 2.3 0 1.3-.9 2.2-2 2.2zm-10.8-10.6h1.9V21h-1.9z"/></svg>
+                    </div>
+                    <div class="partner-logo">
+                        <svg viewBox="0 0 100 35" fill="currentColor"><path d="M67.2 13.5H64v3.1h3.2c1 0 1.6-.8 1.6-1.6 0-.7-.6-1.5-1.6-1.5zm-.2-2.6c.9 0 1.5-.6 1.5-1.4 0-.9-.6-1.4-1.4-1.4H64v2.8h3zm-5.1-4.3h5.6c2.2 0 3.9 1.5 3.9 3.6 0 1.4-.8 2.5-1.9 2.9 1.4.4 2.4 1.6 2.4 3.2 0 2.3-1.8 3.9-4.3 3.9h-5.8V6.6zm-4.3 13.6h3.8v-3.1h-3.8v3.1zm0-5.7h3.8V11h-3.8v3.5zm0-6.1h3.8V5h-3.8v3.4zm-4.3 11.8h3.8V5h-3.8v15.2zm-2.3-3.1h-7.1v3.1h7.1v-3.1zm0-5.7h-7.1v3.1h7.1v-3.1zm0-5.7h-7.1v3.1h7.1V5.7zm2.5-3.6v18.8c0 .7-.6 1.3-1.3 1.3H36.6c-.7 0-1.3-.6-1.3-1.3V2.1c0-.7.6-1.3 1.3-1.3h13.8c.7 0 1.3.6 1.3 1.3v.1z"/></svg>
+                    </div>
+                    <div class="partner-logo">
+                        <svg viewBox="0 0 100 35" fill="currentColor"><path d="M39.4 14.6c0 2.9-2.3 5.1-5.1 5.1s-5.1-2.3-5.1-5.1 2.3-5.1 5.1-5.1c2.9 0 5.1 2.3 5.1 5.1zm2.8 0c0-4.4-3.6-8-8-8s-8 3.6-8 8 3.6 8 8 8 8-3.6 8-8zm3.7-8.3h2.9v16.5h-2.9V6.3zm14.4 6c-.5-.5-1.3-.9-2.2-.9-1.7 0-3.3 1.5-3.3 3.5 0 2 1.6 3.5 3.3 3.5.9 0 1.7-.4 2.2-.9h.1v.6c0 1.6-.9 2.5-2.3 2.5-1.1 0-1.9-.8-2.1-1.5l-1.6.7c.5 1.1 1.7 2.5 3.8 2.5 2.2 0 4-1.3 4-4.4v-7.6h-1.7v.6h-.2zm-2.1 5.4c-1 0-1.9-.9-1.9-2.1s.8-2.1 1.9-2.1c1 0 1.8.9 1.8 2.1s-.8 2.1-1.8 2.1zm19-10.1h-6.9v16.5h2.9V16h4.1c2.2 0 4.4-1.6 4.4-4.4s-2.2-4.3-4.5-4.3zm.1 6.9h-4.1V9.1h4.1c1.4 0 2.2 1.2 2.2 2.2-.1 1.1-.9 2.2-2.2 2.2zm11.3-2.1h-.1c-.5-.5-1.3-.9-2.3-.9-2.1 0-4.1 1.9-4.1 4.3s1.9 4.3 4.1 4.3c1 0 1.8-.5 2.2-1h.1v.6c0 1.6-.9 2.5-2.3 2.5-1.1 0-1.9-.8-2.1-1.5l-1.6.7c.5 1.1 1.7 2.5 3.8 2.5 2.2 0 4-1.3 4-4.4v-7.6h-1.7v.5zm-2.2 6.9c-1 0-1.9-.9-1.9-2.1s.8-2.1 1.9-2.1c1 0 1.8.9 1.8 2.1 0 1.3-.8 2.1-1.8 2.1z"/></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#services">
+                <span class="scroll-text">Scroll Down</span>
+                <span class="scroll-icon">
+                    <svg viewBox="0 0 24 24"><path d="M12 20l-8-8h6V4h4v8h6l-8 8z"/></svg>
+                </span>
+            </a>
+        </div>
+    </section>
+    
+    
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Expertise</span>
+                <h2 class="section-title">Premium Printing Services</h2>
+                <p class="section-description">From business essentials to custom merchandise, we provide exceptional quality across all print products.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-animation="fade-up" data-delay="0">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm0-4c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1s1 .45 1 1v5c0 .55-.45 1-1 1z"/></svg>
+                    </div>
+                    <h3 class="service-title">Business Printing</h3>
+                    <p class="service-description">Professional business cards, letterheads, envelopes, and marketing materials tailored to your brand.</p>
+                    <a href="services.html#business-printing" class="service-link">Learn More</a>
+                </div>
+                
+                <div class="service-card featured" data-animation="fade-up" data-delay="150">
+                    <div class="service-badge">Popular</div>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24"><path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16h-9v-6h9v6zm0-9h-9V6h9v4zm-12 9H3v-6h6v6zm0-9H3V6h6v4z"/></svg>
+                    </div>
+                    <h3 class="service-title">Custom Merchandise</h3>
+                    <p class="service-description">Branded apparel, promotional products, and custom gifts that make an impact.</p>
+                    <a href="services.html#custom-merchandise" class="service-link">Learn More</a>
+                </div>
+                
+                <div class="service-card" data-animation="fade-up" data-delay="300">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 16c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7z"/><path d="M15 12c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"/></svg>
+                    </div>
+                    <h3 class="service-title">Design Services</h3>
+                    <p class="service-description">Expert graphic design for logos, marketing materials, and brand identity development.</p>
+                    <a href="services.html#design-services" class="service-link">Learn More</a>
+                </div>
+                
+                <div class="service-card" data-animation="fade-up" data-delay="450">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24"><path d="M18 3v2h-2V3H8v2H6V3H4v18h2v-2h2v2h8v-2h2v2h2V3h-2zM8 17H6v-2h2v2zm0-4H6v-2h2v2zm0-4H6V7h2v2zm10 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V7h2v2z"/></svg>
+                    </div>
+                    <h3 class="service-title">Large Format</h3>
+                    <p class="service-description">Banners, posters, signage, and displays for trade shows, events, and retail environments.</p>
+                    <a href="services.html#large-format" class="service-link">Learn More</a>
+                </div>
+            </div>
+            
+            <div class="services-cta">
+                <a href="services.html" class="btn btn-primary">View All Services</a>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-media" data-animation="fade-right">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=1000&q=80" alt="About PaperPrint">
+                    </div>
+                    <div class="experience-badge">
+                        <span class="experience-number">15+</span>
+                        <span class="experience-text">Years of Experience</span>
+                    </div>
+                </div>
+                
+                <div class="about-text" data-animation="fade-left">
+                    <span class="section-subtitle">About PaperPrint</span>
+                    <h2 class="section-title">Printing Excellence Since 2008</h2>
+                    <p class="about-paragraph">At PaperPrint, we combine cutting-edge technology with traditional craftsmanship to deliver exceptional print products that make a lasting impression. Our experienced team is dedicated to bringing your creative vision to life with precision and care.</p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zm4.2-12.2L10 14l-2.2-2.2c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l3 3c.2.2.4.3.7.3.3 0 .5-.1.7-.3l7-7c.4-.4.4-1 0-1.4s-1-.4-1.4 0z"/></svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4 class="feature-title">Premium Quality</h4>
+                                <p class="feature-description">State-of-the-art equipment and premium materials ensure superior results.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24"><path d="M14.6 6.8l-2.1-2c-.4-.4-1.1-.4-1.5 0l-2.2 2c-.4.4-.4 1 0 1.4.4.4 1 .4 1.4 0l.3-.3v5.4c0 .6.4 1 1 1s1-.4 1-1V7.9l.3.3c.2.2.5.3.7.3.3 0 .5-.1.7-.3.5-.4.5-1 0-1.4zm-2.6 4.9c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm0 10c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z"/></svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4 class="feature-title">Fast Turnaround</h4>
+                                <p class="feature-description">Efficient processes and dedicated staff ensure on-time delivery.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24"><path d="M20.2 5.9l.8-.8C19.6 3.7 17.8 3 16 3c-3.9 0-7 3.1-7 7 0 1.8.7 3.6 2.1 4.9l.8-.8C10.7 12.8 10 11.4 10 10c0-3.3 2.7-6 6-6 1.4 0 2.8.7 4.2 1.9zM10.5 19H8c-.6 0-1-.4-1-1V5c0-.6.4-1 1-1h3c.6 0 1-.4 1-1s-.4-1-1-1H8c-1.7 0-3 1.3-3 3v13c0 1.7 1.3 3 3 3h2.5c.6 0 1-.4 1-1s-.4-1-1-1zm0 0H8c-.6 0-1-.4-1-1V5c0-.6.4-1 1-1h3c.6 0 1-.4 1-1s-.4-1-1-1H8c-1.7 0-3 1.3-3 3v13c0 1.7 1.3 3 3 3h2.5c.6 0 1-.4 1-1s-.4-1-1-1z"/><path d="M18.2 7.8C17.6 7.3 17 7 16.4 7c-1.7 0-3 1.3-3 3s1.3 3 3 3c.6 0 1.2-.3 1.8-.8C19.3 11.3 20 10.6 20 10s-.7-1.3-1.8-2.2zM16.4 11c-.6 0-1-.4-1-1s.4-1 1-1 1 .4 1 1-.4 1-1 1z"/></svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4 class="feature-title">Eco-Friendly</h4>
+                                <p class="feature-description">Sustainable printing options that are kind to the environment.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-14h2v7h-2zm0 8h2v2h-2z"/></svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4 class="feature-title">Personal Support</h4>
+                                <p class="feature-description">Dedicated account managers to guide you through every step.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-cta">
+                        <a href="about.html" class="btn btn-primary">Learn More About Us</a>
+                        <a href="contact.html" class="btn btn-outline">Contact Our Team</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Projects</span>
+                <h2 class="section-title">Featured Work</h2>
+                <p class="section-description">A selection of print projects we've created for businesses across various industries.</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item wide" data-animation="fade-up">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1530435460869-d13625c69bbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&h=600&q=80" alt="Company Branding Package">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Company Branding Package</h3>
+                        <span class="portfolio-category">Business Printing</span>
+                        <a href="portfolio.html" class="portfolio-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-animation="fade-up" data-delay="150">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1589578228447-e1a4e481c6c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=600&q=80" alt="Custom T-Shirt Design">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Custom T-Shirt Design</h3>
+                        <span class="portfolio-category">Apparel</span>
+                        <a href="portfolio.html" class="portfolio-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-animation="fade-up" data-delay="300">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=600&q=80" alt="Trade Show Materials">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Trade Show Materials</h3>
+                        <span class="portfolio-category">Large Format</span>
+                        <a href="portfolio.html" class="portfolio-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-animation="fade-up" data-delay="450">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=600&q=80" alt="Restaurant Menu Design">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Restaurant Menu Design</h3>
+                        <span class="portfolio-category">Design Services</span>
+                        <a href="portfolio.html" class="portfolio-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item wide" data-animation="fade-up" data-delay="600">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&h=600&q=80" alt="Promotional Products">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Promotional Products</h3>
+                        <span class="portfolio-category">Custom Merchandise</span>
+                        <a href="portfolio.html" class="portfolio-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-cta">
+                <a href="portfolio.html" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Client Feedback</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+            
+            <div class="testimonial-slider" data-animation="fade-up">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">
+                            <svg class="quote-icon" viewBox="0 0 24 24"><path d="M6.5 10.5c-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5S8 12.8 8 12s-.7-1.5-1.5-1.5zm0-6C3.5 4.5 1 7 1 10s2.5 5.5 5.5 5.5S12 13 12 10 9.5 4.5 6.5 4.5zm0 9c-1.9 0-3.5-1.6-3.5-3.5S4.6 6.5 6.5 6.5 10 8.1 10 10s-1.6 3.5-3.5 3.5zm11-9c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5S23 13 23 10s-2.5-5.5-5.5-5.5zm0 9c-1.9 0-3.5-1.6-3.5-3.5s1.6-3.5 3.5-3.5 3.5 1.6 3.5 3.5-1.6 3.5-3.5 3.5zm0-4.5c-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5 1.5-.7 1.5-1.5-.7-1.5-1.5-1.5z"/></svg>
+                            <p>Working with PaperPrint was an absolute pleasure. The team went above and beyond to ensure our branding materials were perfect. The quality of the print exceeded our expectations, and their attention to detail was impressive. We'll definitely be using their services again for future projects.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&h=100&q=80" alt="Sarah Johnson">
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Marketing Director, Innovate Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">
+                            <svg class="quote-icon" viewBox="0 0 24 24"><path d="M6.5 10.5c-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5S8 12.8 8 12s-.7-1.5-1.5-1.5zm0-6C3.5 4.5 1 7 1 10s2.5 5.5 5.5 5.5S12 13 12 10 9.5 4.5 6.5 4.5zm0 9c-1.9 0-3.5-1.6-3.5-3.5S4.6 6.5 6.5 6.5 10 8.1 10 10s-1.6 3.5-3.5 3.5zm11-9c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5S23 13 23 10s-2.5-5.5-5.5-5.5zm0 9c-1.9 0-3.5-1.6-3.5-3.5s1.6-3.5 3.5-3.5 3.5 1.6 3.5 3.5-1.6 3.5-3.5 3.5zm0-4.5c-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5 1.5-.7 1.5-1.5-.7-1.5-1.5-1.5z"/></svg>
+                            <p>We ordered custom t-shirts for our company retreat, and they exceeded our expectations. The quality of the print and fabric was outstanding, and our team loved them! The staff was helpful throughout the design process, and delivery was prompt. Highly recommended!</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&h=100&q=80" alt="Michael Chen">
+                            </div>
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p>HR Manager, TechStart</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">
+                            <svg class="quote-icon" viewBox="0 0 24 24"><path d="M6.5 10.5c-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5S8 12.8 8 12s-.7-1.5-1.5-1.5zm0-6C3.5 4.5 1 7 1 10s2.5 5.5 5.5 5.5S12 13 12 10 9.5 4.5 6.5 4.5zm0 9c-1.9 0-3.5-1.6-3.5-3.5S4.6 6.5 6.5 6.5 10 8.1 10 10s-1.6 3.5-3.5 3.5zm11-9c-3 0-5.5 2.5-5.5 5.5s2.5 5.5 5.5 5.5S23 13 23 10s-2.5-5.5-5.5-5.5zm0 9c-1.9 0-3.5-1.6-3.5-3.5s1.6-3.5 3.5-3.5 3.5 1.6 3.5 3.5-1.6 3.5-3.5 3.5zm0-4.5c-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5 1.5-.7 1.5-1.5-.7-1.5-1.5-1.5z"/></svg>
+                            <p>As a small business owner, finding reliable printing services is crucial. PaperPrint has been my go-to for years. Their sustainable options align with our values, and the quality is always impeccable. The staff is knowledgeable and provides excellent customer service every time.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&h=100&q=80" alt="David Wilson">
+                            </div>
+                            <div class="author-info">
+                                <h4>David Wilson</h4>
+                                <p>Owner, Eco Café</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-controls">
+                <button class="testimonial-arrow prev" aria-label="Previous testimonial">
+                    <svg viewBox="0 0 24 24"><path d="M15.5 18.5l-7-7 7-7"/></svg>
+                </button>
+                <div class="testimonial-dots">
+                    <button class="testimonial-dot active" aria-label="Testimonial 1"></button>
+                    <button class="testimonial-dot" aria-label="Testimonial 2"></button>
+                    <button class="testimonial-dot" aria-label="Testimonial 3"></button>
+                </div>
+                <button class="testimonial-arrow next" aria-label="Next testimonial">
+                    <svg viewBox="0 0 24 24"><path d="M8.5 18.5l7-7-7-7"/></svg>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+   
+    <section class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Packages</span>
+                <h2 class="section-title">Tailored Printing Solutions</h2>
+                <p class="section-description">Choose from our pre-designed packages or contact us for a custom quote.</p>
+            </div>
+            
+            <div class="pricing-tabs">
+                <button class="pricing-tab active" data-tab="business">Business</button>
+                <button class="pricing-tab" data-tab="events">Events</button>
+                <button class="pricing-tab" data-tab="merchandise">Merchandise</button>
+            </div>
+            
+            <div class="pricing-content">
+                <div class="pricing-group active" data-tab-content="business">
+                    <div class="pricing-grid">
+                        <div class="pricing-card" data-animation="fade-up" data-delay="0">
+                            <div class="pricing-header">
+                                <h3 class="pricing-title">Starter</h3>
+                                <div class="pricing-price">
+                                    <span class="price-currency">$</span>
+                                    <span class="price-amount">199</span>
+                                </div>
+                                <p class="pricing-description">Essential business printing for startups and small businesses.</p>
+                            </div>
+                            <div class="pricing-body">
+                                <ul class="pricing-features">
+                                    <li class="feature-item">250 Business Cards</li>
+                                    <li class="feature-item">100 Letterheads</li>
+                                    <li class="feature-item">100 Envelopes</li>
+                                    <li class="feature-item">Basic Logo Design</li>
+                                    <li class="feature-item inactive">Presentation Folders</li>
+                                    <li class="feature-item inactive">Brochures</li>
+                                </ul>
+                                <div class="pricing-cta">
+                                    <a href="pricing.html" class="btn btn-outline">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-card featured" data-animation="fade-up" data-delay="150">
+                            <div class="pricing-badge">Most Popular</div>
+                            <div class="pricing-header">
+                                <h3 class="pricing-title">Professional</h3>
+                                <div class="pricing-price">
+                                    <span class="price-currency">$</span>
+                                    <span class="price-amount">349</span>
+                                </div>
+                                <p class="pricing-description">Comprehensive printing package for established businesses.</p>
+                            </div>
+                            <div class="pricing-body">
+                                <ul class="pricing-features">
+                                    <li class="feature-item">500 Business Cards</li>
+                                    <li class="feature-item">250 Letterheads</li>
+                                    <li class="feature-item">250 Envelopes</li>
+                                    <li class="feature-item">Professional Logo Design</li>
+                                    <li class="feature-item">50 Presentation Folders</li>
+                                    <li class="feature-item">100 Tri-fold Brochures</li>
+                                </ul>
+                                <div class="pricing-cta">
+                                    <a href="pricing.html" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-card" data-animation="fade-up" data-delay="300">
+                            <div class="pricing-header">
+                                <h3 class="pricing-title">Enterprise</h3>
+                                <div class="pricing-price">
+                                    <span class="price-currency">$</span>
+                                    <span class="price-amount">599</span>
+                                </div>
+                                <p class="pricing-description">Premium printing solutions for larger businesses and corporations.</p>
+                            </div>
+                            <div class="pricing-body">
+                                <ul class="pricing-features">
+                                    <li class="feature-item">1000 Business Cards</li>
+                                    <li class="feature-item">500 Letterheads</li>
+                                    <li class="feature-item">500 Envelopes</li>
+                                    <li class="feature-item">Premium Logo Design</li>
+                                    <li class="feature-item">100 Presentation Folders</li>
+                                    <li class="feature-item">250 Tri-fold Brochures</li>
+                                </ul>
+                                <div class="pricing-cta">
+                                    <a href="pricing.html" class="btn btn-outline">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pricing-group" data-tab-content="events">
+                    
+                    <div class="pricing-grid">
+                        <div class="pricing-card" data-animation="fade-up" data-delay="0">
+                            <div class="pricing-header">
+                                <h3 class="pricing-title">Basic Event</h3>
+                                <div class="pricing-price">
+                                    <span class="price-currency">$</span>
+                                    <span class="price-amount">249</span>
+                                </div>
+                                <p class="pricing-description">Essential printing for small events and gatherings.</p>
+                            </div>
+                            <div class="pricing-body">
+                                <ul class="pricing-features">
+                                    <li class="feature-item">50 Invitations & Envelopes</li>
+                                    <li class="feature-item">25 Event Programs</li>
+                                    <li class="feature-item">1 Welcome Banner</li>
+                                    <li class="feature-item">50 Name Tags</li>
+                                    <li class="feature-item inactive">Table Numbers</li>
+                                    <li class="feature-item inactive">Thank You Cards</li>
+                                </ul>
+                                <div class="pricing-cta">
+                                    <a href="pricing.html" class="btn btn-outline">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-card featured" data-animation="fade-up" data-delay="150">
+                            <div class="pricing-badge">Most Popular</div>
+                            <div class="pricing-header">
+                                <h3 class="pricing-title">Standard Event</h3>
+                                <div class="pricing-price">
+                                    <span class="price-currency">$</span>
+                                    <span class="price-amount">399</span>
+                                </div>
+                                <p class="pricing-description">Complete printing package for medium-sized events.</p>
+                            </div>
+                            <div class="pricing-body">
+                                <ul class="pricing-features">
+                                    <li class="feature-item">100 Invitations & Envelopes</li>
+                                    <li class="feature-item">50 Event Programs</li>
+                                    <li class="feature-item">2 Welcome Banners</li>
+                                    <li class="feature-item">100 Name Tags</li>
+                                    <li class="feature-item">15 Table Numbers</li>
+                                    <li class="feature-item">50 Thank You Cards</li>
+                                </ul>
+                                <div class="pricing-cta">
+                                    <a href="pricing.html" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-card" data-animation="fade-up" data-delay="300">
+                            <div class="pricing-header">
+                                <h3 class="pricing-title">Premium Event</h3>
+                                <div class="pricing-price">
+                                    <span class="price-currency">$</span>
+                                    <span class="price-amount">699</span>
+                                </div>
+                                <p class="pricing-description">Comprehensive printing for large conferences and galas.</p>
+                            </div>
+                            <div class="pricing-body">
+                                <ul class="pricing-features">
+                                    <li class="feature-item">200 Invitations & Envelopes</li>
+                                    <li class="feature-item">100 Event Programs</li>
+                                    <li class="feature-item">4 Welcome Banners</li>
+                                    <li class="feature-item">200 Name Tags</li>
+                                    <li class="feature-item">30 Table Numbers</li>
+                                    <li class="feature-item">100 Thank You Cards</li>
+                                </ul>
+                                <div class="pricing-cta">
+                                    <a href="pricing.html" class="btn btn-outline">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pricing-group" data-tab-content="merchandise">
+                    
+                    <div class="pricing-grid">
+                        <div class="pricing-card" data-animation="fade-up" data-delay="0">
+                            <div class="pricing-header">
+                                <h3 class="pricing-title">Starter Bundle</h3>
+                                <div class="pricing-price">
+                                    <span class="price-currency">$</span>
+                                    <span class="price-amount">299</span>
+                                </div>
+                                <p class="pricing-description">Essential promotional items for small businesses.</p>
+                            </div>
+                            <div class="pricing-body">
+                                <ul class="pricing-features">
+                                    <li class="feature-item">25 T-shirts (1 color design)</li>
+                                    <li class="feature-item">50 Pens</li>
+                                    <li class="feature-item">25 Notebooks</li>
+                                    <li class="feature-item">10 Tote Bags</li>
+                                    <li class="feature-item inactive">Coffee Mugs</li>
+                                    <li class="feature-item inactive">Water Bottles</li>
+                                </ul>
+                                <div class="pricing-cta">
+                                    <a href="pricing.html" class="btn btn-outline">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-card featured" data-animation="fade-up" data-delay="150">
+                            <div class="pricing-badge">Best Value</div>
+                            <div class="pricing-header">
+                                <h3 class="pricing-title">Professional Bundle</h3>
+                                <div class="pricing-price">
+                                    <span class="price-currency">$</span>
+                                    <span class="price-amount">499</span>
+                                </div>
+                                <p class="pricing-description">Comprehensive merchandise package for established brands.</p>
+                            </div>
+                            <div class="pricing-body">
+                                <ul class="pricing-features">
+                                    <li class="feature-item">50 T-shirts (2 color design)</li>
+                                    <li class="feature-item">100 Pens</li>
+                                    <li class="feature-item">50 Notebooks</li>
+                                    <li class="feature-item">25 Tote Bags</li>
+                                    <li class="feature-item">25 Coffee Mugs</li>
+                                    <li class="feature-item inactive">Water Bottles</li>
+                                </ul>
+                                <div class="pricing-cta">
+                                    <a href="pricing.html" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-card" data-animation="fade-up" data-delay="300">
+                            <div class="pricing-header">
+                                <h3 class="pricing-title">Premium Bundle</h3>
+                                <div class="pricing-price">
+                                    <span class="price-currency">$</span>
+                                    <span class="price-amount">799</span>
+                                </div>
+                                <p class="pricing-description">Extensive merchandise package for corporate campaigns.</p>
+                            </div>
+                            <div class="pricing-body">
+                                <ul class="pricing-features">
+                                    <li class="feature-item">100 T-shirts (full color)</li>
+                                    <li class="feature-item">200 Pens</li>
+                                    <li class="feature-item">100 Notebooks</li>
+                                    <li class="feature-item">50 Tote Bags</li>
+                                    <li class="feature-item">50 Coffee Mugs</li>
+                                    <li class="feature-item">50 Water Bottles</li>
+                                </ul>
+                                <div class="pricing-cta">
+                                    <a href="pricing.html" class="btn btn-outline">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="custom-pricing">
+                <div class="custom-pricing-content">
+                    <h3>Need a Custom Solution?</h3>
+                    <p>Contact us for a tailored quote based on your specific printing needs.</p>
+                    <a href="contact.html" class="btn btn-secondary">Get a Custom Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title" data-animation="fade-up">Ready to Start Your Project?</h2>
+                <p class="cta-text" data-animation="fade-up" data-delay="150">Let's create exceptional print materials that elevate your brand.</p>
+                <div class="cta-buttons" data-animation="fade-up" data-delay="300">
+                    <a href="contact.html" class="btn btn-light">Contact Us</a>
+                    <a href="tel:+15551234567" class="btn btn-outline-light">Call +256 789 215 8677</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-info">
+                        <div class="footer-logo">
+                            <span class="logo-text">Paper<span class="accent">Print</span></span>
+                        </div>
+                        <p class="footer-description">Premium printing solutions for businesses and individuals. Quality, reliability, and excellent customer service since 2008.</p>
+                        <div class="footer-social">
+                            <a href="#" class="social-link" aria-label="Facebook">
+                                <svg viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Twitter">
+                                <svg viewBox="0 0 24 24"><path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z"/></svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <svg viewBox="0 0 24 24"><path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 1.802c-2.67 0-2.986.01-4.04.059-.976.045-1.505.207-1.858.344-.466.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.048 1.055-.058 1.37-.058 4.041 0 2.67.01 2.986.058 4.04.045.977.207 1.505.344 1.858.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058 2.67 0 2.987-.01 4.04-.058.977-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041 0-2.67-.01-2.986-.058-4.04-.045-.977-.207-1.505-.344-1.858a3.097 3.097 0 0 0-.748-1.15 3.098 3.098 0 0 0-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.055-.048-1.37-.058-4.041-.058zm0 3.063a5.135 5.135 0 1 1 0 10.27 5.135 5.135 0 0 1 0-10.27zm0 8.468a3.333 3.333 0 1 0 0-6.666 3.333 3.333 0 0 0 0 6.666zm6.538-8.469a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z"/></svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <svg viewBox="0 0 24 24"><path d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 0 1-1.548-1.549 1.548 1.548 0 1 1 1.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <h3 class="footer-title">Quick Links</h3>
+                        <ul class="footer-menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <h3 class="footer-title">Services</h3>
+                        <ul class="footer-menu">
+                            <li><a href="services.html#business-printing">Business Printing</a></li>
+                            <li><a href="services.html#custom-merchandise">Custom Merchandise</a></li>
+                            <li><a href="services.html#design-services">Design Services</a></li>
+                            <li><a href="services.html#large-format">Large Format</a></li>
+                            <li><a href="services.html#promotional-products">Promotional Products</a></li>
+                            <li><a href="services.html#eco-friendly">Eco-Friendly Printing</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-contact">
+                        <h3 class="footer-title">Contact Us</h3>
+                        <ul class="contact-info">
+                            <li>
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <p>123 Print Street</p>
+                                    <p>Design District, Kampala</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <a href="mailto:info@paperprint.com">info@paperprint.com</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24"><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM12 3v10l3-3h6V3h-9z"/></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <a href="tel:+15551234567">+256 789 215 867</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <p>Monday-Friday: 9am-6pm</p>
+                                    <p>Saturday: 10am-4pm</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p class="copyright">&copy; 2025 PaperPrint. All rights reserved.</p>
+                    <ul class="footer-legal">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <button class="back-to-top" aria-label="Back to top">
+        <svg viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+    </button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
